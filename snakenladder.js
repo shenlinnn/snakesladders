@@ -179,7 +179,7 @@ if (Meteor.isServer) {
   Meteor.startup(function () {
 
     Players.remove({});
-    var names = ["Alessa","Blaire","Cathy","Diana"];
+    var names = ["Alissa","Blaire","Cathy","Diana"];
     _.each(names, function (name) {
       Players.insert({
         name: name,
